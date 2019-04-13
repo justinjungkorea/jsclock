@@ -1,5 +1,5 @@
 .js-title{
-    font-size: 72pt;
+    font-size: 100pt;
 }
 
 .btn{
@@ -13,6 +13,7 @@
 .form,
 .greetings{
     display: none;
+    font-size:40pt;
 }
 
 .showing{
@@ -21,6 +22,10 @@
 
 body{
     background-color: aliceblue;
+    text-align: center;
+    color:white;
+    font-family: 'Nanum Gothic Coding', monospace;
+
 }
 
 @keyframes fadeIn {
@@ -43,3 +48,6 @@ body{
     animation: fadeIn 1s linear;
 }
 
+.js-weather{
+    font-size:40pt;
+}
