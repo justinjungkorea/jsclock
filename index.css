@@ -20,9 +20,24 @@
     display: block;
 }
 
+.js-clock,
+.js-form,
+.js-greetings,
+.js-toDoForm,
+.js-weatherDiv{
+    text-align: center;
+}
+
+ul{
+    width:300px;
+    margin-left: auto;
+    margin-right:auto;
+    list-style-type: none;
+}
+
+
 body{
     background-color: aliceblue;
-    text-align: center;
     color:white;
     font-family: 'Nanum Gothic Coding', monospace;
 

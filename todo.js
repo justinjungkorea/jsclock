@@ -21,13 +21,13 @@ function saveToDos(){
     localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
 
-function paintToDo(text){
+function paintToDo(text) {
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
-    delBtn.innerText = "❌";
-    delBtn.addEventListener("click",deleteTodo);
+    delBtn.innerText = "X";
+    delBtn.addEventListener("click", deleteTodo);
     const span = document.createElement("span");
-    const newId = toDos.length+1;
+    const newId = toDos.length + 1;
     span.innerText = text;
     li.appendChild(delBtn);
     li.appendChild(span);
